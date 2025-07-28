@@ -1,0 +1,93 @@
+# --- PYTHON / DJANGO ---
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+/media/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+venv/
+env/
+ENV/
+*.env
+*.env.*
+.secret
+/secrets.json
+instance/
+.mypy_cache/
+.pytest_cache/
+.coverage
+*.cover
+coverage.xml
+*.log
+.tox/
+.nox/
+celerybeat-schedule
+*.db
+
+# --- DJANGO STATIC/MEDIA (if using local) ---
+staticfiles/
+static/
+media/
+# Eğer prod'da upload klasörü varsa onu da ekle:
+uploads/
+
+# --- VSCODE, IDEA, VS, PYCHARM ETC ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# --- VUE / NODE / VITE ---
+node_modules/
+dist/
+.cache/
+*.log
+yarn.lock
+pnpm-lock.yaml
+npm-debug.log*
+.DS_Store
+*.local
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# --- OS / GENERAL ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.bak
+*.tmp
+
+# --- TEST / TEMP / BACKUP ---
+*.orig
+*.swp
+*.tmp
+*.bak
+*.old
+
+# --- COVERAGE ---
+coverage/
+htmlcov/
+.nyc_output/
+
+# --- BUILD ARTIFACTS ---
+build/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- CUSTOM ---
+/frontend/node_modules/
+/frontend/dist/
+/backend/venv/
+/backend/db.sqlite3
+
