@@ -74,10 +74,7 @@ npm run dev
 
 ⚙️ Kullanım
 Localhost’ta backend’i ve frontend’i başlat.
-
 http://localhost:5173 adresine git ve uygulamayı kullanmaya başla!
-
-Demo girişleri veya admin hesabı istersen buraya ekleyebilirsin.
 
 📂 Proje Yapısı
 bash
